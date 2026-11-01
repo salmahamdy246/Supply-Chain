@@ -5,7 +5,15 @@ A self-contained, Dockerised **real-time supply-chain analytics platform** for a
 > **Stack:** Python · Apache Kafka 4.3 · Apache Flink 1.20 (SQL) · Apache Iceberg 1.9 · HDFS (Hadoop 3.4) · Apache Spark 3.5 · Apache Airflow 2.10 · Prometheus · Grafana 11 · Docker Compose
 
 ---
+[Demo Video](https://drive.google.com/file/d/1UlkCJ7oDXDJBN8c1OfC5kKJFQs1FfH3r/view)
 
+Demonstrates real-time terminal execution featuring a Kafka generator, producer, and dispatcher streaming operational event data. 
+
+It highlights the containerization and custom image building for Apache Airflow alongside the integration of Apache Flink for real-time stream processing. 
+
+It showcases end-to-end pipeline orchestration through Airflow DAGs paired with Grafana monitoring for performance tracking and system telemetry.
+
+---
 ## Table of contents
 
 1. [What this project demonstrates](#1-what-this-project-demonstrates)
